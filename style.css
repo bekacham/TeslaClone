@@ -1,0 +1,95 @@
+html {
+  background: url('images/TM.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Jura', sans-serif;
+}
+
+#header {
+  width: 100%;
+  margin-bottom: -20px;
+  margin-top: 30px;
+  height: 65px;
+}
+
+#logo img {
+  width: 100px;
+  float: left;
+  padding-left: 150px;
+}
+
+#nav-main {
+  float: left;
+  margin-left: 75px;
+}
+
+#nav-right {
+  float: right;
+  margin-right: 150px;
+  font-size: .8em;
+}
+
+.nav-button {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+#content {
+  width: 36%;
+  margin: 100px auto;
+}
+
+#ad-text {
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#buttons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px 10px 20px;
+  max-width: 30px;
+  border: 1px solid transparent;
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+#buttons a {
+  text-decoration: none;
+}
+
+.button:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: .8em;
+  margin-left: 40px;
+}
+
+#flag {
+  width: 15px;
+}
